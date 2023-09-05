@@ -1,0 +1,52 @@
+{% extends 'main.html' %} {% block title %}
+<title>open ai</title>
+{% endblock title %} {% block body %}
+<div class="container text-center">
+<div class="Speak">
+            <input type="text" id="searchBox" aria-describedby="emailHelp" placeholder="Enter your Input or use Microphone">
+            <button id="submitButton" class="submitButton">
+                <span class="tooltipSearch">Search</span>
+            </button>
+            <button id="startButton" class="startButton">
+                <span class="tooltipStart">Search by Voice</span>
+            </button>
+        </div>
+        
+        <div class="Conversation">
+            <h2>Welcome To ChatBot AI</h2>
+            <div class="alert overlay" id="alert" style="display:none;">
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+              <h8 id="alerttext"></h8> 
+              <!-- <strong>Danger!</strong> Indicates a dangerous or potentially negative action. -->
+            </div>
+        </div>
+        <div class="size">
+          
+        </div>
+</div>
+<!-- <div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6 Speak">
+      <input
+        type="text"
+        id="searchBox"
+        class="form-control"
+        placeholder="Enter your Input or use Microphone"
+      />
+      <button id="submitButton" class="btn btn-light rounded-circle ml-2">
+        <span class="tooltipSearch">Search</span>
+      </button>
+      <button id="startButton" class="btn btn-light rounded-circle ml-2">
+        <span class="tooltipStart">Search by Voice</span>
+      </button>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-6 Conversation">
+      <h2 class="text-center">Welcome To ChatBot AI</h2>
+     Conversation messages here 
+    </div>
+  </div>
+</div> -->
+
+{% endblock body %}

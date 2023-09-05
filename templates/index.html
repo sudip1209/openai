@@ -1,0 +1,115 @@
+{% extends 'main.html' %} {% block title %}
+<title>Home Page</title>
+{% endblock title %}
+{% block body %}
+
+{% with messages = get_flashed_messages(with_categories=true) %} {% if messages
+%} {% for category, message in messages %}
+<div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+  <strong>Message</strong> {{message}}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+{% endfor %} {% endif %} {% endwith %} 
+
+    <div class="container nav-cont-top">
+            <!-- tutorial section starts here  -->
+            <div class="tutorial-section">
+                <div class="title text-center mb-3">
+                    <h1 class="font-weight-bolder team-cont">PROJECT DESCRIPTION​</h1>
+                         <div class="card-body">
+                            <h3 class="card-title">Chat Conversation AI Engine or Chat assistant</h3>
+                            <p class="card-text"><h4>SOFTWARE PROJECT</h4></p>
+                            <div class="body-cont">
+                            <p class="cont-text">  It is a software project that employs natural language processing to enable automated conversations with users .​
+                                    It understands user input, generates contextually relevant responses, and simulates human-like interactions.​
+                                        It's a way to Interact with technology in a natural language format, making it more user-friendly and accessible. </p>
+                            </div>
+                         </div>  
+                </div>
+            </div>
+     </div>
+
+
+
+
+
+    <div class="container">
+            <!-- tutorial section starts here  -->
+            <div class="tutorial-section">
+                <div class="title text-center mb-3">
+                    <h1 class="font-weight-bolder team">TEAM DETAILS​</h1>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="../static/m1.png" alt="card image">
+                            <div class="card-body">
+                                <h4 class="card-title">UDAY RAJ SHARMA</h4>
+                                <p class="card-text"><h5>Leader</h5></p>
+                                <p class="card-text"><h5>CSE(Data Science)​2nd year</h5></p>
+                                <p class="card-text"><h6>sharmarajuday@gmai.com​</h6></p>
+                                <a  href="mailto:sharmarajuday@gmai.com​​" target="_blank"><img src="../static/envelope.svg" class="icon"></a>
+                                <a   target="_blank"><img src="../static/twitter.svg" class="icon" ></a>
+                                <a  href="https://www.facebook.com/sharmarajuday?mibextid=ZbWKwL​" target="_blank"><img src="../static/facebook.svg" class="icon" ></a>
+                                <!-- <a class="card-link stretched-link" target="_blank" href="http://www.studywithanis.com/#tutorial">Visit this playlist</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="../static/m2.png" alt="card image">
+                            <div class="card-body">
+                                <h4 class="card-title">GOURAV DEY​</h4>
+                                <p class="card-text"><h5>Member​</h5></p>
+                                <p class="card-text"><h5>CSE(Data Science)​2nd year</h5></p>
+                                <p class="card-text"><h6>gouravdey9519@gmail.com​​</h6></p>
+                                <a  href="mailto:gouravdey9519@gmail.com​​​" target="_blank"><img src="../static/envelope.svg" class="icon"></a>
+                                <a   target="_blank"><img src="../static/twitter.svg" class="icon" ></a>
+                                <a  href="https://www.facebook.com/profile.php?id=100087273247000&mibextid=ZbWKwL" target="_blank"><img src="../static/facebook.svg" class="icon" ></a>
+                                <!-- <a class="card-link stretched-link" target="_blank" href="http://www.studywithanis.com/#tutorial">Visit this playlist</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="../static/m3.png" alt="card image">
+                            <div class="card-body">
+                                <h4 class="card-title">MRITYUNJOY BARMAN​</h4>
+                                <p class="card-text"><h5>Member​</h5></p>
+                                <p class="card-text"><h5>CSE(Data Science)​2nd year</h5></p>
+                                <p class="card-text"><h6>barmanmrityunjoy22@gmail.com​</h6></p>
+                                <a  href="mailto:barmanmrityunjoy22@gmail.com​​​" target="_blank"><img src="../static/envelope.svg" class="icon"></a>
+                                <a  href="https://twitter.com/Mrityun15813626?s=08​​" target="_blank"><img src="../static/twitter.svg" class="icon" ></a>
+                                <a  href="https://www.facebook.com/profile.php?id=100017802393001&mibextid=ZbWKwL​​" target="_blank"><img src="../static/facebook.svg" class="icon" ></a>
+                                <!-- <a class="card-link stretch../static/ed-link" target="_blank" href="http://www.studywithanis.com/#tutorial">Visit this playlist</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="../static/m4.png" alt="card image">
+                            <div class="card-body">
+                                <h4 class="card-title">SUDIP SHARMA</h4>
+                                <p class="card-text"><h5>Member​</h5></p>
+                                <p class="card-text"><h5>CSE ​2nd year</h5></p>
+                                <p class="card-text"><h6>sharmasudip010@gmai.com​</h6></p>
+                                <a  href="mailto:sharmasudip010@gmai.com​​" target="_blank"><img src="../static/envelope.svg" class="icon"></a>
+                                <a  href="https://twitter.com/Sudip1209​" target="_blank"><img src="../static/twitter.svg" class="icon" ></a>
+                                <a  href="https://www.facebook.com/sudip.sharma.98284​​" target="_blank"><img src="../static/facebook.svg" class="icon" ></a>
+                                <!-- <a class="card-link stretched-link" target="_blank" href="http://www.studywithanis.com/#tutorial">Visit this playlist</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tutorial section ends here  -->
+        </main>
+    </div>
+
+
+
+
+{% endblock body %}

@@ -1,0 +1,21 @@
+OpenAI response for Prompt: Write a code to find prime number. 
+ *************************
+
+
+
+def is_prime(num):
+    # Edge cases 
+    if num <= 1: 
+        return False
+    # Check from 2 to n-1 
+    for i in range(2, num): 
+        if num % i == 0: 
+            return False
+    return True
+  
+# Driver Code 
+num = 11
+if is_prime(num): 
+    print(num, "is a Prime Number")
+else: 
+    print(num, "is not a Prime Number")
