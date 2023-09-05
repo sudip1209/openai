@@ -6,7 +6,7 @@ openai==0.27.0
 datetime==4.3
 numpy==1.21.0
 selenium==4.0.0
-wikipedia-api==0.5.4
+wikipedia==1.4.0
 flask_sqlalchemy==2.5.1
 flask_login
 gunicorn==21.2.0
