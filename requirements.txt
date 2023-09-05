@@ -9,3 +9,4 @@ selenium==4.0.0
 wikipedia-api==0.5.4
 flask_sqlalchemy==2.5.1
 flask_login
+gunicorn==21.2.0
