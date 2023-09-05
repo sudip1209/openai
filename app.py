@@ -13,7 +13,6 @@ import wikipedia
 
 app=Flask(__name__)
 openai.api_key = "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"
-db = SQLAlchemy(app)
 
 # class User(UserMixin,db.Model):
 #     id = db.Column(db.Integer, primary_key=True)
