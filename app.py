@@ -15,7 +15,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager,login_user,UserMixin, logout_user
 
 app=Flask(__name__)
-openai.api_key = "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"
+openai.api_key = "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"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///user.db'
 app.config['SECRET_KEY'] = 'thisissecret'
 db = SQLAlchemy(app)
